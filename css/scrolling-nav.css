@@ -26,13 +26,14 @@ ol, ul {
     text-align: left;
 }
 
-@media (max-width: @screen-xs) {
+@media (max-width: 767px) {
     h1{
         font-size: 4em;
     }
 }
 
-@media(min-width:767px) {
+
+@media(min-width:768px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;

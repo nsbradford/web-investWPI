@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-    font-size:7em;
+   font-size:7em;
 }
 
 h2 {
@@ -24,6 +24,12 @@ h2 {
 
 ol, ul {
     text-align: left;
+}
+
+@media (max-width: @screen-xs) {
+    h1{
+        font-size: 4em;
+    }
 }
 
 @media(min-width:767px) {
@@ -37,10 +43,10 @@ ol, ul {
     .top-nav-collapse {
         padding: 0;
     }
-
+    /*
     h1 {
         font-size: 10em;
-    }
+    }*/
 }
 
 
@@ -50,6 +56,13 @@ ol, ul {
         padding-top: 5em !important;
     }
 
+}
+
+.img-responsive.img-circle{
+    /*width: 600px;
+    height: 600px;*/
+    border-radius: 100%;
+    border: 7px solid #ffffff;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.

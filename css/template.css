@@ -63,7 +63,7 @@ ol, ul {
     /*width: 600px;
     height: 600px;*/
     border-radius: 100%;
-    border: 7px solid #ffffff;
+    border: 7px solid #eee; /*#ffffff;*/
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
